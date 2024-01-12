@@ -19,7 +19,5 @@ import ToolLayout from '@/components/tool/tool-layout.vue';
     return 'slide-left';
   },
 })
-export default class Tool extends Vue {
-  list = [{ title: '风险计算', path: '/risk' }];
-}
+export default class Tool extends Vue {}
 </script>
